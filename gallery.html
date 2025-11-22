@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Transport Solutions – Gallery</title>
+
+  <style>
+    body {
+      background-color: white;
+      font-family: Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    /* NAVIGATION BAR */
+    nav {
+      background-color: #322d29;
+      padding: 18px 50px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    nav .logo {
+      color: white;
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    header {
+   background-color: #322D29;
+   color: #EFE9E1;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 18px 50px;
+ }
+
+
+
+ header div {
+   display: flex;
+   align-items: center;
+ }
+
+ header h3 {
+   font-size: 1.5em;
+   font-weight: 600;
+   letter-spacing: 1px;
+ }
+
+ nav ul {
+   list-style: none;
+   display: flex;
+   gap: 25px;
+ }
+
+ nav ul li a {
+   color: #EFE9E1;
+   text-decoration: none;
+   font-weight: 500;
+   transition: color 0.3s ease;
+ }
+
+ nav ul li a:hover,
+ nav ul li a.active {
+   color: #D1C7BD;
+ }
+
+    #head1 {
+      text-align: center;
+      padding: 20px;
+    }
+
+    h1 {
+      color:#72383D;
+      animation: fadeIn 1.5s ;
+    }
+
+    /* FLEXBOX GALLERY */
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      padding: 20px;
+    }
+
+    .card {
+      border: 1px solid#72383D;
+      width: 400px;
+      border-radius: 6px;
+      overflow: hidden;
+      background: #fff;
+      transition: 0.2s;
+    }
+
+    .card:hover {
+      transform: scale(1.03);
+    }
+
+    .card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+
+    .card-info {
+      padding: 10px;
+      color: #4a2c2a;
+    }
+
+    .card-info h3 {
+      margin-top: 0;
+    }
+
+    /* FOOTER */
+    footer {
+      background-color:#72383D;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 20px;
+      font-size: 14px;
+    }
+
+    @keyframes fadeIn {
+      from {opacity: 0;}
+      to {opacity: 1;}
+    }
+
+  </style>
+
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <header>
+    <div>
+    
+      <h3>MoveSmart.</h3>
+    </div>
+
+    <nav>
+      <ul>
+        <li><a href="project.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="stats.html">Stats</a></li>
+        <li><a href="solutionsnew.html" class="active">Solutions</a></li>
+        <li><a href="sdg.html">SDG Goals</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+
+  <div id="head1">
+    <h1>Transport Solutions – Gallery</h1>
+    <p style="color:#72383D;">Modern transport systems and awareness visuals</p>
+  </div>
+
+  <div class="gallery">
+
+    <!-- Image 1 -->
+    <div class="card">
+      <img src="https://www.modeshift.com/wp-content/uploads/2023/09/tokyo-public-transport-1024x536.jpg" alt="Train interior">
+      <div class="card-info">
+        <h3>Public Train System</h3>
+        <p>Modern metro and train networks help reduce road traffic and pollution.</p>
+      </div>
+    </div>
+
+    <!-- Image 2 -->
+    <div class="card">
+      <img src="https://hyderabadmail.com/wp-content/uploads/2025/03/TGSRTC-introduces-eco-friendly-electric-AC-buses-for-IT-employees-in-Hyderabad.jpeg" alt="Bus transport">
+      <div class="card-info">
+        <h3>Public Bus Transport</h3>
+        <p>Bus services are an affordable and accessible transport solution for all.</p>
+      </div>
+    </div>
+
+    <!-- Image 3 -->
+    <div class="card">
+      <img src="https://overshoot.footprintnetwork.org/content/uploads/2021/08/bicycle-infrastructure-2-1200.jpg" alt="Bicycle lane">
+      <div class="card-info">
+        <h3>Cycling Infrastructure</h3>
+        <p>Dedicated bicycle lanes promote eco-friendly and healthy transport.</p>
+      </div>
+    </div>
+
+    <!-- Image 4 -->
+    <div class="card">
+      <img src="https://www.acea.auto/files/efficient-road-transport.jpg" alt="Highway">
+      <div class="card-info">
+        <h3> IMPROVE Highway Transport</h3>
+        <p>Well-designed highways improve connectivity between cities and states.</p>
+      </div>
+    </div>
+
+    <!-- Image 5 -->
+    <div class="card">
+      <img src="https://www.orissapost.com/wp-content/uploads/2022/04/Electric-Vehicle-charging-stations.jpg" alt="Electric vehicle charging">
+      <div class="card-info">
+        <h3>Electric Vehicle Charging</h3>
+        <p>EV stations support clean and sustainable transport for the future.</p>
+      </div>
+    </div>
+
+    <!-- Image 6 -->
+    <div class="card">
+      <img src="https://cdn.prod.website-files.com/628905bae461d31c437ea344/649550b93e2fa8199ffba8c8_intersection.webp" alt="Smart traffic system">
+      <div class="card-info">
+        <h3>Smart Traffic Management</h3>
+        <p>Modern traffic systems reduce congestion and improve road safety.</p>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- FOOTER -->
+  <footer>
+    © 2025 MoveSmart | Transport Solutions & Awareness Project
+  </footer>
+
+</body>
+</html>

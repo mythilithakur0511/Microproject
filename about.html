@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About – Traffic Problems & Solutions</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<style>
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #eef3f7;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+      background-color: #322D29;
+      color: #EFE9E1;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 50px;
+    }
+
+    header img {
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      margin-right: 15px;
+    }
+
+    header div {
+      display: flex;
+      align-items: center;
+    }
+
+    header h3 {
+      font-size: 1.5em;
+      font-weight: 600;
+      letter-spacing: 1px;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 25px;
+    }
+
+    nav ul li a {
+      color: #EFE9E1;
+      text-decoration: none;
+      font-weight: 500;
+      transition: color 0.3s ease;
+    }
+
+    nav ul li a:hover,
+    nav ul li a.active {
+      color: #D1C7BD;
+    }
+
+    /* Header Section */
+#head1{
+    background:#72383D ;
+    color: white;
+    padding: 25px;
+    text-align: center;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+}
+
+ 
+/* Main Container */
+.container {
+    width: 85%;
+    max-width: 900px;
+    margin: 40px auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover Zoom Effect */
+.container:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 30px rgba(0,0,0,0.15);
+}
+
+/* Headings */
+h2 {
+    color: #72383D;
+    margin-top: 25px;
+    transition: color 0.3s ease;
+}
+
+h2:hover {
+    color:#322D29;
+}
+
+/* Text */
+p, li {
+    line-height: 1.7;
+}
+
+/* Footer */
+footer {
+    background:#72383D;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+}
+
+/* ------------------------
+   Animations & Transitions
+   ------------------------ */
+
+/* Fade-in effect */
+.fade-in {
+    opacity: 0;
+    animation: fadeIn 1.95s forwards;
+}
+
+/* Fade-in from bottom */
+.fade-in-up {
+    opacity: 0;
+    transform: translateY(30px);
+    animation: fadeInUp 1.3s forwards;
+    animation-delay: 0.5s;
+}
+
+/* Keyframes */
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeInUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+</style>
+<body>
+
+    <header class="fade-in">
+        
+        <div>
+  
+      <h3>MoveSmart.</h3>
+    </div>
+
+    <nav>
+      <ul>
+        <li><a href="project.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="stats.html">Stats</a></li>
+        <li><a href="solutionsnew.html" class="active">Solutions</a></li>
+        <li><a href="sdg.html">SDG Goals</a></li>
+      </ul>
+    </nav>
+    </header>
+
+    <div id="head1">About Traffic Issues & Their Solutions</div>
+
+    <section class="container fade-in-up">
+        <h2>Understanding the Problem</h2>
+        <p>
+            Traffic congestion is one of the biggest issues faced by growing cities today.
+            Increasing population, poor planning, and heavy vehicle usage lead to frequent jams,
+            pollution, and long travel times.
+        </p>
+
+        <h2>Major Causes of Traffic Problems</h2>
+        <ul>
+            <li>Increase in private vehicles</li>
+            <li>Poor road design and insufficient infrastructure</li>
+            <li>Lack of public transport usage</li>
+            <li>Traffic rule violations</li>
+            <li>Roadside parking and street encroachments</li>
+        </ul>
+
+        <h2>Solutions to Reduce Traffic</h2>
+        <p>
+            Cities can solve traffic congestion by adopting modern planning and smart transport systems:
+        </p>
+        <ol>
+            <li>Improving public transportation & encouraging carpooling.</li>
+            <li>Implementing strict traffic rules and awareness programs.</li>
+            <li>Using smart signals and AI-based traffic monitoring.</li>
+            <li>Developing flyovers, underpasses & wider roads.</li>
+            <li>Promoting cycling, walking, and eco-friendly options.</li>
+            <li>Flexible work hours & work-from-home options.</li>
+        </ol>
+
+        <h2>Our Mission</h2>
+        <p>
+            Our goal is to spread awareness and encourage people to take responsible steps.
+            Together, we can build cleaner, safer, and smoother cities for the future.
+        </p>
+    </section>
+
+    <footer class="fade-in">
+        <p>© 2025 Traffic Awareness Initiative</p>
+    </footer>
+
+</body>
+</html>

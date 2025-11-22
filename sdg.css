@@ -1,0 +1,134 @@
+/* ---------- RESET ---------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #EFE9E1;
+  color: #322D29;
+  line-height: 1.6;
+}
+
+/* ---------- HEADER ---------- */
+header {
+  background-color: #322D29;
+  color: #EFE9E1;
+  padding: 18px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h2 {
+  font-size: 1.6em;
+  letter-spacing: 1px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+nav ul li a {
+  color: #EFE9E1;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+nav ul li a:hover {
+  color: #D1C7BD;
+}
+
+/* ---------- HERO ---------- */
+#hero {
+  height: 65vh;
+  background: url("https://i.ibb.co/8L5f3Dsr/photo-1714109581153-8eb539db22a3.jpg") center/cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  color: #EFE9E1;
+  padding: 20px;
+}
+
+#hero h1 {
+  font-size: 3em;
+  margin-bottom: 10px;
+}
+
+#hero p {
+  font-size: 1.3em;
+  color: #D1C7BD;
+}
+
+/* ---------- SDG SECTION ---------- */
+.section {
+  padding: 70px 10%;
+  text-align: center;
+}
+
+.section h2 {
+  font-size: 2em;
+  margin-bottom: 25px;
+  color: #322D29;
+}
+
+.sdg-card {
+  background: #D1C7BD;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 12px rgba(50,45,41,0.2);
+  margin-bottom: 25px;
+  text-align: left;
+}
+
+.sdg-card h3 {
+  color: #72383D;
+  margin-bottom: 10px;
+}
+
+.sdg-card ul {
+  margin-left: 20px;
+}
+
+.sdg-card li {
+  margin: 6px 0;
+}
+
+/* ---------- BUTTON ---------- */
+.btn {
+  background-color: #72383D;
+  color: #EFE9E1;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 25px;
+  margin-top: 25px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: #AC9C8D;
+  color: #322D29;
+}
+
+
+
+/* ---------- FOOTER ---------- */
+footer {
+  background-color: #322D29;
+  color: #EFE9E1;
+  padding: 20px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
