@@ -4,7 +4,170 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="NLH.CSS">
+    <style>
+        html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+#page1,#page2,#page3{
+    height: 100%;
+    width: 100%;
+    
+}
+nav{
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.303);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    padding-right: 30px;
+}
+    nav h1{
+        padding-left: 50px;
+        font-size: 50px;
+        font-size: 30px;
+       font-family: 'Roboto', sans-serif;
+        font-weight: 900;
+        letter-spacing: 5px;
+        color: aliceblue;
+    }
+#part2{
+    color: aliceblue;
+    display: flex;
+    gap: 80px;
+    padding-right: 50px;
+}
+nav a{
+    color: rgb(229, 148, 250);
+    text-decoration: none;
+    font-size: large;
+    
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#page1{
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.255);
+}
+#page2{
+    display: flex;
+}
+nav a:hover{
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 50px;
+}
+#p1{
+    display: flex;
+  
+}
+#txt{
+position: relative;
+bottom: 55%;
+left: 35%;
+
+    
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 30px;
+color: rgb(0, 30, 55);
+}
+#aw{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    color: rgb(229, 255, 0);
+    
+}
+#bg-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 300vh;   /* Video covers 3 full pages */
+    object-fit: cover; 
+    z-index: -1; 
+}
+
+video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#photo1{
+    
+    background-image: url("https://dhl-freight-connections.com/wp-content/uploads/2023/04/LAY_DHL_Blog_SEO_Gueterverkehr_EN2-1024x576.jpg");
+    position: absolute;
+    background-size: cover;
+    height: 70%;
+    width: 60%;
+    background-color: black;
+    top: 110%;
+    left: 40%;
+    border-radius: 50px;
+    box-shadow: 0 0 20px black;
+}
+#txt1{
+    position: absolute;
+   top: 10%;
+    left: 20%;
+    
+}
+
+#photo3 {
+    position: absolute;
+    height: 90%;
+    width: 20%;
+    top: 110%;
+    left: 8%;
+    background-color: rgba(0, 0, 0, 0.274);
+    box-shadow: 0 0 20px black;
+    border-radius: 50px;
+    display: flex;
+    
+    align-items: center;
+    overflow: hidden;      
+}
+
+#photo3 img {
+    object-fit: fill;
+    transform: translateY(80%);   
+    scale: 0.8;      /* fit width inside box */
+    rotate: 90deg;
+    border-radius: 20px;
+}
+
+#page3{
+    background-color: rgba(0, 0, 0, 0.377);
+}
+#photo4{
+    background-image: url("https://www.unescap.org/sites/default/d8files/styles/image_banner_1250_x375/public/2025-10/empower%20%281%29.png?itok=BMOdVmJl");
+    background-color: rgba(0, 0, 0, 0.274);
+    position: absolute;
+    background-size: cover;
+    height: 45%;
+    width: 80%;
+    box-shadow: 0 0 20px black;
+    top: 220%;
+    left: 10%;
+    border-radius: 50px;
+}
+#page1::before {
+    position: absolute;
+    inset: 0;
+    background-image: url("https://cdn.pixabay.com/photo/2021/11/03/21/44/nature-6766923_1280.jpg");
+    background-size: cover;
+    z-index: 11;
+}
+
+#last{
+    position: relative;
+}
+        </style>
 </head>
 <body>
     <div id="page1">
@@ -50,3 +213,4 @@
 </body>
 
 </html>
+
