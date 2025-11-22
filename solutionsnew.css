@@ -27,6 +27,8 @@
 
 
 
+
+
     
   
     header {
@@ -139,6 +141,11 @@
       width: 350px;
       border-radius: 10px;
       box-shadow: 0 0 15px rgba(50, 45, 41, 0.3);
+      transition: 0.5s ease;
+    }
+
+    #solutions img:hover{
+      transform: scale(1.05);
     }
 
     
